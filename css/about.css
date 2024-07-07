@@ -1,0 +1,122 @@
+*{
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+/* page locate */
+.pagelocate{
+	background-image: url(../image/about.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 250px;
+}
+.pagelocate .row{
+	display: flex;
+	padding: 80px 0;
+	color: #fff;
+	text-align: center;
+	justify-content: center;
+}
+.page a, .page span{
+	text-decoration: none;
+	color: #fff;
+	margin: 0 10px;
+	font-weight: bold;
+}
+
+
+/* about us */
+.about{
+	padding: 100px 0;
+	text-align: center;
+}
+.about h2{
+	margin-bottom: 25px;
+}
+.about p{
+	font-size: 18px;
+}
+
+/* bestseller */
+.seller h3{
+	margin-bottom: 50px;
+	text-align: center;
+	color: #000;
+}
+.seller-box{
+	margin-bottom: 30px;
+}
+.seller{
+	padding: 100px 0px;
+}
+.seller h1{
+	padding-bottom: 30px;
+	color: #ff5722;
+}
+.seller-img img{
+	width: 100%;
+}
+.price{
+	width: 50px;
+	height: 50px;
+	background: #ff5722;
+	color: #fff;
+	font-weight: 600;
+	font-size: 25px;
+	border-radius: 50%;
+	padding: 9px 13px;
+	position: absolute;
+	left: 20px;
+	bottom: -20px;
+}
+.seller .price .bi{
+	font-size: 25px;
+}
+.seller-img{
+	position: relative;	
+}
+.rating{
+	padding: 3px;
+	float: right;
+	background: #fff;
+	bottom: -1px;
+	right: 0;
+	position: absolute;
+}
+.seller .bi{
+	font-size: 15px;
+	color: #ff5722;
+}
+.seller-details{
+	padding: 5px 20px;
+}
+.seller-details h4{
+	font-weight: 100px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	color: #000;
+}
+.seller-details .bi{
+	margin-right: 5px;
+}
+.seller-details p{
+	line-height: 5px;
+}
+.seller-details span{
+	margin-left: 20px;
+}
+.seller a{
+	text-decoration: none;
+	background: transparent;
+	border: 1px solid #ef4836;
+	border-radius: 5px;
+	color: #ef4836;
+	padding: 10px 20px;
+	/*width: 150px;*/
+	justify-content: center;
+	display: flex;
+}
+.seller a:hover{
+	background: #ef4836;
+	color: #fff;
+}

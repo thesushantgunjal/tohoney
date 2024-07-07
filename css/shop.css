@@ -1,0 +1,99 @@
+*{
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+/* page locate */
+.pagelocate{
+	background-image: url(../image/about.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 250px;
+	margin-bottom: 50px;
+}
+.pagelocate .row{
+	display: flex;
+	padding: 80px 0;
+	color: #fff;
+	text-align: center;
+	justify-content: center;
+}
+.page a, .page span{
+	text-decoration: none;
+	color: #fff;
+	margin: 0 10px;
+	font-weight: bold;
+}
+
+/* slider */
+.swiper-slide{
+	width: 250px !important;
+	margin: 20px 0;
+}
+.seller-box{
+	margin-bottom: 30px;
+	height: 385px;
+	width: 250px;
+	border: 1px solid #f2f2f2;
+}
+.seller-img img{
+	width: 100%;
+}
+.seller-img{
+	position: relative;	
+}
+.rating{
+	padding: 3px;
+	float: right;
+	background: #fff;
+	bottom: -1px;
+	right: 0;
+	position: absolute;
+}
+.rating .bi{
+	font-size: 15px;
+	color: #ff5722;
+}
+.seller-details{
+	padding: 5px 20px;
+}
+.seller-details h5{
+	font-weight: 100px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	color: #000;
+}
+.seller-details .bi{
+	margin-right: 5px;
+}
+.seller-details p{
+	line-height: 5px;
+}
+.seller-details span{
+	margin-left: 20px;
+}
+.seller-box .cart{
+	position: relative;
+	bottom: 0px;
+	height: 40px;
+	background-color: #ff5722;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.cart a{
+	color: #fff;
+	text-decoration: none;
+}
+.seller-box:hover{
+	box-shadow: 2px 2px 15px rgba(47, 47, 47, 0.20);
+}
+.cart:hover{
+	background-color: #fe9048;
+	color: #fff;
+}
+.cart:hover a{
+	color: #fff;
+}
